@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestClient.Net", "UnitT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClientRtu.Net", "SimpleClientRtu.Net\SimpleClientRtu.Net.csproj", "{7507C7AE-6A3D-45A0-96F3-70014BB656CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modbus_client", "modbus_client\modbus_client.vcxproj", "{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,18 @@ Global
 		{7507C7AE-6A3D-45A0-96F3-70014BB656CD}.Release|Win32.ActiveCfg = Release|x86
 		{7507C7AE-6A3D-45A0-96F3-70014BB656CD}.Release|x86.ActiveCfg = Release|x86
 		{7507C7AE-6A3D-45A0-96F3-70014BB656CD}.Release|x86.Build.0 = Release|x86
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Debug|Win32.Build.0 = Debug|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Debug|x86.ActiveCfg = Debug|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Release|Any CPU.ActiveCfg = Release|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Release|Win32.ActiveCfg = Release|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Release|Win32.Build.0 = Release|Win32
+		{CE1AD9DA-AFE1-4C64-B8DC-DD41B5FAEB34}.Release|x86.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
